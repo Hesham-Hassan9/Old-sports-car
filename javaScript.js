@@ -1,8 +1,8 @@
-var weldcome = prompt("Hello on my website, What is your name")
+let weldcome = prompt("Hello on my website, What is your name")
 
-var howOld = prompt("How old are you")
+let howOld = prompt("How old are you")
 
-var favcar = prompt("what is your favorite car ford or dodge")
+let favcar = prompt("what is your favorite car ford or dodge")
 
 function favcars(favcar){
 
@@ -32,9 +32,9 @@ if(favcar == "ford"){
 }
 favcars(favcar);
 function rating(){
-  var yourRating = prompt("How do you rate the car from 0 to 5?")
-  for(var i = 0; i <= yourRating; i++){
-    var star = i;
+  let yourRating = prompt("How do you rate the car from 0 to 5?")
+  for(let i = 0; i <= yourRating; i++){
+    let star = i;
     console.log(star)
   }
   document.write(
